@@ -1,4 +1,6 @@
 # homemon
+![The hotspot](./device.jpg)
+
 ## Components
 There are three different components:
 * [homemon-daemon](https://github.com/thatoddmailbox/homemon-daemon) - The program that runs on a device and regularly sends reports to a server.
