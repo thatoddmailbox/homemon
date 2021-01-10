@@ -1,10 +1,11 @@
 # homemon
+|   |   |
+| - | - |
+| ![The hotspot](./device.jpg) | ![The web UI](./website.png) |
+
 homemon is a set of programs that let you check that your home's power is on, meaning you can distinguish between an Internet outage and a power outage. You install a program on a central server and another on a physical device, and the device sends regular reports to your server via a cellular connection.
 
-The main target physical device is an Alcatel MW41 mobile hotspot, which you can [get root access on](https://alex.studer.dev/2021/01/04/mw41-1). A mobile hotspot is ideal for this, because it has a cellular connection and a battery, meaning that it can keep sending reports if the power actually does go out.
-
-![The hotspot](./device.jpg)
-![The web UI](./website.png)
+The main target physical device is an Alcatel MW41 mobile hotspot, which you can [get root access on](https://alex.studer.dev/2021/01/04/mw41-1). A mobile hotspot is ideal for this because it has a cellular connection and a battery, meaning that it can keep sending reports if the power actually does go out.
 
 ## Components
 There are three different components:
