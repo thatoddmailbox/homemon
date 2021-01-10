@@ -4,6 +4,7 @@ homemon is a set of programs that let you check that your home's power is on, me
 The main target physical device is an Alcatel MW41 mobile hotspot, which you can [get root access on](https://alex.studer.dev/2021/01/04/mw41-1). A mobile hotspot is ideal for this, because it has a cellular connection and a battery, meaning that it can keep sending reports if the power actually does go out.
 
 ![The hotspot](./device.jpg)
+![The web UI](./website.png)
 
 ## Components
 There are three different components:
