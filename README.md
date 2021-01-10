@@ -1,7 +1,8 @@
 # homemon
-|   |   |
-| - | - |
-| ![The hotspot](./device.jpg) | ![The web UI](./website.png) |
+<p float="left">
+	<img src="./device.jpg" alt="The hotspot" width="49%" />
+	<img src="./website.png" alt="The web UI" width="49%" />
+</p>
 
 homemon is a set of programs that let you check that your home's power is on, meaning you can distinguish between an Internet outage and a power outage. You install a program on a central server and another on a physical device, and the device sends regular reports to your server via a cellular connection.
 
