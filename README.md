@@ -19,6 +19,12 @@ There are two methods of sending reports:
 * HTTP - makes a POST request to [homemon-server](https://github.com/thatoddmailbox/homemon-server). Simple to set up and maintain.
 * UDP - fires a UDP packet with report data to [homemon-receiver](https://github.com/thatoddmailbox/homemon-receiver). More complex setup, but uses significantly less data. (estimated to be around 90 bytes per report, as counted by T-Mobile's network)
 
+## Setup
+1. Choose one of the transports listed above, either HTTP or UDP. If you don't know which, choose HTTP. (UDP is only useful if you want to minimize the amount of data used)
+2. Set up homemon-server [with these instructions](https://github.com/thatoddmailbox/homemon-server#setup).
+3. If you're using the UDP transport, set up homemon-receiver [with these instructions](https://github.com/thatoddmailbox/homemon-receiver#readme).
+4. Finally, set up homemon-daemon [with these instructions](https://github.com/thatoddmailbox/homemon-daemon#readme).
+
 ## Protocol
 This section describes the format of the packets being sent if you use the UDP transport.
 
